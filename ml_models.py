@@ -12,7 +12,7 @@ from sklearn.metrics import mean_squared_error
 #Importing
 df= pd.read_csv('C:/Users/Dell/Desktop/MODELS/Housing.csv')
 
-
+##Add another comment###
 #Transforming the categorical data into a binary data
 def encode(val):
     if val == 'yes':
