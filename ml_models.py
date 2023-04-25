@@ -7,12 +7,12 @@ from sklearn.ensemble import RandomForestRegressor
 from sklearn.model_selection import GridSearchCV
 from sklearn.metrics import mean_squared_error
 
-###TEST###
+## COMMENTS MASTER
 ### PLEASE KEEP THE PATH CONSTANT ###
 #Importing
 df= pd.read_csv('C:/Users/Dell/Desktop/MODELS/Housing.csv')
 
-##Add another comment###
+
 #Transforming the categorical data into a binary data
 def encode(val):
     if val == 'yes':
