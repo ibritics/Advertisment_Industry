@@ -7,7 +7,8 @@ from sklearn.ensemble import RandomForestRegressor
 from sklearn.model_selection import GridSearchCV
 from sklearn.metrics import mean_squared_error
 
-###TEST###
+
+
 ### PLEASE KEEP THE PATH CONSTANT ###
 #Importing
 df= pd.read_csv('C:/Users/Dell/Desktop/MODELS/Housing.csv')
@@ -53,7 +54,7 @@ class ml_models():
 
 ### JUST TRUST TO YOUR GRID SEARCH ####
 param_grid = {
-    'n_estimators': [25, 50, 100, 150,1000],
+    'n_estimators': [25, 50, 100, 150,500],
     'max_depth': [3, 6, 9],
     'max_leaf_nodes': [3, 6, 9],
 }
